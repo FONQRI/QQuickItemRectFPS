@@ -58,12 +58,6 @@ Rectangle {
         }
     }
 
-    Component {
-        id: paintedQQIComponent
-        PainterRectItemQQI {
-            color: root.col
-        }
-    }
 
     // Canvas based solution
     Component {

@@ -39,11 +39,10 @@ void RectSGNode::repaint(const QRectF &rect, int numberOfRectangles,
 	for (int row = 0; row < rowCount; row++) {
 		for (int column = 0; column < rowCount; column++) {
 			// TODO pre cal
-			auto index = row * rowCount + column * 6;
+			auto index = row * 6 * rowCount + column * 6;
 			auto rowSize = row * rectangleSize;
 			auto colSize = column * rectangleSize;
-
-			v[index].set(row * rectangleSize, colSize);
+			v[index].set(rowSize, colSize);
 
 			v[index + 1].set(rowSize + rectangleSize, colSize);
 
