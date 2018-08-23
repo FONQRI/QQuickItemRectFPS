@@ -1,5 +1,6 @@
 # QQuickItemRectFPS
 ## QtQuick Custom Item Performance 
+persian explanation is in [بررسی پرفورمنس ایتم سفارشی برای QML](http://moderncpp.ir/post/110)
 This is an example for  showing fps of showing 10000 rectangles in qquickitem .
 - draw in opengl 
 - show in qml 
